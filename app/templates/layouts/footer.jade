@@ -1,0 +1,11 @@
+div.page-footer
+  div.layout-center
+    div.footer-menu
+      ul.footer-menu__list
+        each link in ['About us','Contact','Responsible gaming', 'Terms and Conditionals', 'Privacy policy','Legal','Affiliates']
+          li.footer-menu__item
+            a.footer-menu__link(href="#")= link
+      include ./../blocks/button
+    include ./../blocks/sponsors
+
+    p.copyright &copy; 2015  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In adipisci obcaecati aliquam animi! Hic aliquid expedita quibusdam dolorum? Eius soluta iste distinctio tenetur ea non sequi omnis minus sint! Ipsa.

@@ -1,0 +1,47 @@
+.security
+  float: right
+  width: 218px
+  border:
+    width: 1px
+    style: solid
+    color: #d8d8d8
+  margin-top: 15px
+
+  &__title
+    background: linear-gradient(to bottom, #fefefe, #f9f9f9)
+    margin: 0
+    color: #333333
+    border-bottom: 1px solid #d8d8d8
+    padding: 10px
+    font:
+      size: 11px
+      weight: 600
+    &:before
+      content: ''
+      display: inline-block
+      margin-right: 10px
+      background:
+        image: url('../img/sprite.png')
+        position: -198px -32px
+      width: 14px
+      height: 12px
+  &-box
+    padding: 20px
+    text-align: center
+    &:before
+      content: ''
+      display: inline-block
+      position: relative
+      background:
+        image: url('../img/sprite.png')
+        position: 0px 0px
+      width: 84px
+      height: 95px
+      margin:
+        bottom: 19px
+    &__text
+      margin: 0
+      font:
+        family: 'open_sansregular'
+        size: 11px
+        weight: 400

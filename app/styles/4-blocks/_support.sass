@@ -1,0 +1,59 @@
+.support
+  border: $border
+  border-radius: 2px
+  width: 220px
+  float: right
+  &-head
+    &__icon
+      position: relative
+      top: -10px
+      left: 10px
+    height: 70px
+    border:
+      bottom: 1px solid #d8d8d8
+  &__list
+    list-style: none
+    margin: 0
+    padding: 20px
+    background: linear-gradient(to bottom, #fefefe, #f8f8f8)
+  &__item
+    font:
+      size: 11px
+      weight: 600
+    margin:
+      bottom: 15px
+    &-chat
+      color: #ffab00
+      &:before
+        content: ''
+        display: inline-block
+        background:
+          image: url('../img/sprite.png')
+          position: -202px -47px
+        width: 13px
+        height: 11px
+        margin-right: 10px
+    &-email
+      color: #ffab00
+      &:before
+        content: ''
+        display: inline-block
+        background:
+          image: url('../img/sprite.png')
+          position: -164px -88px
+        width: 11px
+        height: 8px
+        margin-right: 10px
+    &-phone
+      color: #4c4c4c
+      margin:
+        bottom: 0
+      &:before
+        content: ''
+        display: inline-block
+        background:
+          image: url('../img/sprite.png')
+          position: -175px -88px
+        width: 11px
+        height: 8px
+        margin-right: 10px

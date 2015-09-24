@@ -1,0 +1,132 @@
+.icon-apply {
+  background-image: url(../img/sprite.png);
+  background-position: -198px -32px;
+  width: 14px;
+  height: 12px;
+}
+.icon-arrow {
+  background-image: url(../img/sprite.png);
+  background-position: -208px -75px;
+  width: 10px;
+  height: 10px;
+}
+.icon-bank {
+  background-image: url(../img/sprite.png);
+  background-position: -148px -47px;
+  width: 54px;
+  height: 13px;
+}
+.icon-book {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -95px;
+  width: 63px;
+  height: 50px;
+}
+.icon-chat {
+  background-image: url(../img/sprite.png);
+  background-position: -202px -47px;
+  width: 13px;
+  height: 11px;
+}
+.icon-clock {
+  background-image: url(../img/sprite.png);
+  background-position: -205px -60px;
+  width: 11px;
+  height: 11px;
+}
+.icon-email {
+  background-image: url(../img/sprite.png);
+  background-position: -164px -88px;
+  width: 11px;
+  height: 8px;
+}
+.icon-facebook {
+  background-image: url(../img/sprite.png);
+  background-position: -194px -60px;
+  width: 11px;
+  height: 11px;
+}
+.icon-girl {
+  background-image: url(../img/sprite.png);
+  background-position: -84px 0px;
+  width: 64px;
+  height: 80px;
+}
+.icon-kash {
+  background-image: url(../img/sprite.png);
+  background-position: -148px -60px;
+  width: 46px;
+  height: 15px;
+}
+.icon-lock {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 84px;
+  height: 95px;
+}
+.icon-mastercard {
+  background-image: url(../img/sprite.png);
+  background-position: -186px -12px;
+  width: 30px;
+  height: 18px;
+}
+.icon-money {
+  background-image: url(../img/sprite.png);
+  background-position: -63px -109px;
+  width: 39px;
+  height: 26px;
+}
+.icon-neteller {
+  background-image: url(../img/sprite.png);
+  background-position: -148px 0px;
+  width: 70px;
+  height: 12px;
+}
+.icon-paypal {
+  background-image: url(../img/sprite.png);
+  background-position: -148px -32px;
+  width: 50px;
+  height: 15px;
+}
+.icon-paysafe {
+  background-image: url(../img/sprite.png);
+  background-position: -63px -95px;
+  width: 80px;
+  height: 14px;
+}
+.icon-phone {
+  background-image: url(../img/sprite.png);
+  background-position: -175px -88px;
+  width: 11px;
+  height: 8px;
+}
+.icon-plus {
+  background-image: url(../img/sprite.png);
+  background-position: -148px -88px;
+  width: 16px;
+  height: 16px;
+}
+.icon-settings {
+  background-image: url(../img/sprite.png);
+  background-position: -186px -75px;
+  width: 11px;
+  height: 11px;
+}
+.icon-skrill {
+  background-image: url(../img/sprite.png);
+  background-position: -148px -12px;
+  width: 38px;
+  height: 20px;
+}
+.icon-twitter {
+  background-image: url(../img/sprite.png);
+  background-position: -197px -75px;
+  width: 11px;
+  height: 11px;
+}
+.icon-visa {
+  background-image: url(../img/sprite.png);
+  background-position: -148px -75px;
+  width: 38px;
+  height: 13px;
+}
