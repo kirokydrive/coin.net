@@ -421,6 +421,26 @@ body {
 .page-footer {
   background-color: #f7f7f7; }
 
+.footer-bot {
+  background-color: #eaeaea;
+  color: #cecece;
+  height: 105px;
+  padding-top: 10px;
+  line-height: 105px; }
+  .footer-bot__text {
+    display: block;
+    line-height: 15px;
+    margin-top: 28px;
+    font-family: 'open_sansregular'; }
+  .footer-bot__author {
+    float: left;
+    margin-right: 25px; }
+  .footer-bot__logo {
+    float: left;
+    display: block;
+    margin-top: 30px;
+    margin-right: 65px; }
+
 .header-top {
   background-color: #fefefe;
   height: 31px;
@@ -443,7 +463,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -205px -60px;
+      background-position: -213px -67px;
       width: 11px;
       height: 11px;
       margin-right: 7px; }
@@ -466,7 +486,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -202px -47px;
+      background-position: -212px -52px;
       width: 13px;
       height: 11px;
       margin-right: 5px; }
@@ -520,7 +540,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -186px -75px;
+      background-position: -194px -80px;
       width: 11px;
       height: 11px;
       margin-right: 5px; }
@@ -615,7 +635,7 @@ body {
   .deposit__icon {
     display: inline-block;
     float: right;
-    padding-right: 20px; }
+    margin-right: 20px; }
 
 .info {
   float: left;
@@ -634,7 +654,7 @@ body {
       float: right;
       margin-top: 3px;
       background-image: url("../img/sprite.png");
-      background-position: -148px -47px;
+      background-position: -148px -67px;
       width: 54px;
       height: 13px; }
   .info-content {
@@ -769,7 +789,7 @@ body {
         content: '';
         display: inline-block;
         background-image: url("../img/sprite.png");
-        background-position: -202px -47px;
+        background-position: -212px -52px;
         width: 13px;
         height: 11px;
         margin-right: 10px; }
@@ -779,7 +799,7 @@ body {
         content: '';
         display: inline-block;
         background-image: url("../img/sprite.png");
-        background-position: -164px -88px;
+        background-position: -216px -80px;
         width: 11px;
         height: 8px;
         margin-right: 10px; }
@@ -790,7 +810,7 @@ body {
         content: '';
         display: inline-block;
         background-image: url("../img/sprite.png");
-        background-position: -175px -88px;
+        background-position: -216px -95px;
         width: 11px;
         height: 8px;
         margin-right: 10px; }
@@ -830,7 +850,7 @@ body {
       display: inline-block;
       margin-right: 10px;
       background-image: url("../img/sprite.png");
-      background-position: -198px -32px;
+      background-position: -198px -52px;
       width: 14px;
       height: 12px; }
   .security-box {
@@ -918,7 +938,7 @@ body {
       content: '';
       display: inline-block;
       background-image: url("../img/sprite.png");
-      background-position: -208px -75px;
+      background-position: -218px -40px;
       margin-right: 3px;
       width: 10px;
       height: 10px; }
