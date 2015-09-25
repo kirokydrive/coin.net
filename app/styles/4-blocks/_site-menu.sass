@@ -6,10 +6,8 @@
     margin: 0
     padding: 0
     list-style: none
+    display: block
     height: $site-menu__list-height
-    background: linear-gradient(#5e5e5e, #343434)
-    border:
-      top: $site-menu-border
     line-height: $site-menu-line-height
     @extend .clearfix
   &__item
@@ -19,6 +17,11 @@
     &:hover
       background-color: $site-menu__item-hover-color
       height: 100%
+  &_bg
+    background: linear-gradient(#5e5e5e, #343434)
+    border:
+      top: $site-menu-border
+    width: 100%
   &__link
     color: $site-menu__link-color
     text:

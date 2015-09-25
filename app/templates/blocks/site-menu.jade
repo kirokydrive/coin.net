@@ -1,6 +1,7 @@
 div.site-menu
-  ul.site-menu__list
+  div.site-menu_bg
     div.layout-center
-      each link in ['home','races','live streams','promotions','statistics','help']
-        li.site-menu__item
-          a.site-menu__link(href="#")= link
+      ul.site-menu__list
+        each link in ['home','races','live streams','promotions','statistics','help']
+          li.site-menu__item
+            a.site-menu__link(href="#")= link

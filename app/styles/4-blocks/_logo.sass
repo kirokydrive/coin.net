@@ -1,8 +1,11 @@
 .logo
-  line-height: $page-header-height
+  height: $page-header-height
+  line-height: $page-header-line-height
   display: inline-block
-  margin-left: $logo-margin-left
-  width: 655px
+  margin:
+    left: $logo-margin-left
+    top: 8px
+  width: $logo-width
   background-color: #FFF
   border-top-left-radius: 0px;
   border-top-right-radius: 100px;
@@ -11,10 +14,13 @@
   transform: skew(40deg)
   &__link
     display: block
+    height: 88px
     font:
       family: $logo-font-family
       size: $logo-font-size
     color: $logo-font-color
     text-decoration: $logo-text-decoration
     text-align: center
+    margin:
+      left: 150px
     transform: skew(-40deg)

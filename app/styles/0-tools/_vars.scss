@@ -5,14 +5,15 @@ $main-font-color: #000;
 
 // HEADER TOP
 $header-top-font-color: #9b9b9b;
-$header-top-font-size: 13px;
+$header-top-font-size: 11px;
 $header-top-line-height: 31px;
 
 // PAGE-HEADER
-$page-header-height: 104px;
+$page-header-height: 88px;
+$page-header-line-height: 96px;
 $page-header-top-color: #ffde89; // linear gradient top
 $page-header-bottom-color: #f8ad14; // linear gradient bottom
-$page-header-padding-top: 8px;
+$page-header-padding-top: 0px;
 
 // SITE MENU
 $site-menu-bg-color: #323232;
@@ -29,6 +30,7 @@ $site-menu__link__padding-right: 15px;
 $site-menu__link__padding-left: 15px;
 
 // LOGO
+$logo-width: 575px;
 $logo-font-family: 'uni_sansheavy_caps';
 $logo-font-color: #3c3c3c;
 $logo-font-size: 38px;
@@ -41,7 +43,7 @@ $border-radius: 2px;
 
 // METHOD
 $method-width: 234px;
-$method-padding: 20px;
+$method-padding: 20px 14px 20px 20px;
 
 // BLOCKS
 $block-bg-color: #eeeeee;
